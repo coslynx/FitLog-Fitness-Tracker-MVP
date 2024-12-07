@@ -1,0 +1,16 @@
+node_modules/
+dist/
+build/
+.env
+.env.development
+.env.production
+*.log
+*.tmp
+*.cache
+.DS_Store
+*.swp
+npm-debug.log*
+yarn-debug.log*
+*.jsx.map
+*.css.map
+*.ts.map
