@@ -1,0 +1,8 @@
+{
+  "commands": [
+    "npm install",
+    "mongod --dbpath /data/db &",
+    "npm run build",
+    "node server.js"
+  ]
+}
