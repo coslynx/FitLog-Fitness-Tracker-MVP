@@ -1,0 +1,103 @@
+/* Styles for AuthButton component */
+.auth-button {
+  margin-top: 1rem;
+}
+
+/* Styles for GoalCard component */
+.goal-card {
+  margin-bottom: 1rem;
+}
+
+.goal-progress {
+  margin-bottom: 0.5rem;
+}
+
+/* Styles for GoalForm component */
+.goal-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+.goal-form > * {
+  margin-bottom: 1rem;
+}
+
+/* Styles for ProgressChart component */
+.progress-chart {
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+/* Styles for ShareLink component */
+.share-link {
+  margin-top: 1rem;
+}
+
+.shareable-link {
+  word-break: break-all; /*Allow long links to wrap */
+  margin-bottom: 0.5rem;
+}
+
+
+/* Home Page Styles */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.home-hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.home-title {
+  margin-bottom: 1rem;
+}
+
+.home-subtitle {
+  margin-bottom: 2rem;
+}
+
+.home-description {
+  margin-bottom: 2rem;
+}
+
+.home-actions {
+  text-align: center;
+}
+
+
+/* Goals Page Styles */
+.goals-container {
+  padding: 2rem;
+}
+
+.goals-title {
+  margin-bottom: 2rem;
+}
+
+/* Dashboard Page Styles */
+.dashboard-container {
+  padding: 2rem;
+}
+
+.dashboard-title {
+  margin-bottom: 2rem;
+}
+
+/*Responsive Styles*/
+@media (max-width: 768px) {
+  .goal-form {
+    max-width: 100%;
+  }
+  .progress-chart {
+    max-width: 100%;
+  }
+}
